@@ -1,0 +1,19 @@
+.outer{
+    background-color: red;
+    color:white;
+}
+.left{
+    background-color: plum;
+    width:30%;
+    float:left;
+}
+.right{
+    background-color: green;
+    width:30%;
+    float:right;
+}
+.outer::after,.outer::before{
+    content:"";
+    display: block;
+    clear:both;
+}

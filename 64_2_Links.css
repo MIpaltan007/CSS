@@ -1,0 +1,21 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: rgba(255,0,0,0.5);
+    padding:10px 20px;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:crimson;
+}
+a:hover{
+    background-color: gold;
+    color:darkmagenta;
+}
+a:active{color: blue;}
