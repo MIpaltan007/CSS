@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* img{
+            max-width: 100%;
+            height:auto;
+        } */
+         /* div{
+            background-image: url(nature.jpg);
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border: 8px solid yellowgreen;
+         } */
+         /* @media only screen and (min-width: 400px){
+            body{
+                background-image: url(nature.jpg);
+                background-repeat: no-repeat;
+            }
+         } */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD Images</title>
+</head>
+<body>
+    <!-- <img src="nature.jpg" width="460" height="345">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, repellendus?</p> -->
+    <!-- <div></div> -->
+     <picture>
+        <source src="nature.jpg" media="(max-width:400px)">
+     </picture>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        p.text1{
+            /* white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: clip;
+            word-wrap: break-word; */
+            writing-mode: horizontal-tb;
+        }
+
+        p.text2{
+            /* white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: ellipsis; */
+            writing-mode: vertical-lr;
+        }
+
+       /* p{
+        width: 11em;
+        border: 1px solid black;
+        word-wrap: break-word;
+       } */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effect</title>
+</head>
+
+<body>
+    <h1>Text Overflow</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quos officiis quod tempore provident
+        repellendus distinctio est quas ut dolorum!</p>
+
+    <h2>About Text-Overflow</h2>
+    <p class="text1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, nihil.</p>
+
+    <h2>Ellipsis</h2>
+    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ut quaerat?</p>
+</body>
+
+</html>
